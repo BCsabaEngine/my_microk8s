@@ -3,3 +3,4 @@
 CURRENTDATE=`date +"%Y-%m-%d %T"`
 git add -A
 git commit -a -m "${CURRENTDATE}"
+git push
