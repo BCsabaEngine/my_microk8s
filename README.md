@@ -2,7 +2,8 @@
 
 My MicroK8S environment with helm for development
 - install microk8s
-- enable modules
+- enable modules: dns, storage, registry
+- install: helm(3), dashboard
 - init kube config
 - set kubectl and helm aliases
 - add needed helm repos

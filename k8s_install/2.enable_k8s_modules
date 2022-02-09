@@ -1,1 +1,1 @@
-microk8s enable storage dns dashboard helm3
+microk8s enable storage dns registry dashboard helm3
