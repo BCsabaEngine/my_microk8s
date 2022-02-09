@@ -1,0 +1,2 @@
+microk8s config > /root/.kube/config
+chmod 600 /root/.kube/config

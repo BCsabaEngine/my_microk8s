@@ -1,1 +1,1 @@
-snap install micok8s --classic
+snap install microk8s --classic

@@ -1,0 +1,1 @@
+helm install --set architecture="replicaset",replicaCount=4,auth.rootPassword="password",persistence.size="4Gi",image.tag=5.0 mongodb5-replica bitnami/mongodb
