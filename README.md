@@ -6,9 +6,16 @@ My MicroK8S environment for development
 - set kubectl and helm aliases
 
 # Helms
-- mongodb v5 with replicas (install, uninstall, remove PVCs)
-- argocd (install, get password, uninstall)
+- mongodb v5 with replicas: 4 replicas, 4GB storage, scripts (install, uninstall, remove PVCs)
+- kafka: 2 brokers, 1GB storagee, scripts (install, uninstall, remove PVCs)
+- kafka-ui works with Kafka above
+- argocd: scripts (install, get password, uninstall)
 
 # Fast exposes
-- mongodb
 - argocd
+- all with kubefwd (https://github.com/txn2/kubefwd/releases)
+
+# Optional exposes (use kubefwd instead)
+- mongo
+- kafka
+- kafka-ui

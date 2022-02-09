@@ -1,0 +1,1 @@
+helm install --set deleteTopicEnable=true,replicaCount=2,persistence.size=1Gi,zookeeper.persistence.size=1Gi kafka bitnami/kafka

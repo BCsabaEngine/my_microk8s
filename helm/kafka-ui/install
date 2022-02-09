@@ -1,0 +1,1 @@
+helm install --set service.port=8081,envs.config.KAFKA_CLUSTERS_0_NAME=microk8s,envs.config.KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS="kafka:9092" kafka-ui kafka-ui/kafka-ui

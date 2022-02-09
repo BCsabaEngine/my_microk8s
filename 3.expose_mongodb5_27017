@@ -1,1 +1,0 @@
-kubectl port-forward svc/mongodb5-replica-headless 27017:27017 --address='0.0.0.0'
