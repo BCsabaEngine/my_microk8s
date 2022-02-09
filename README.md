@@ -6,4 +6,9 @@ My MicroK8S environment for development
 - set kubectl and helm aliases
 
 # Helms
-- mongodb v5 with replicas
+- mongodb v5 with replicas (install, uninstall, remove PVCs)
+- argocd (install, get password, uninstall)
+
+# Fast exposes
+- mongodb
+- argocd
