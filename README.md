@@ -9,12 +9,13 @@ My MicroK8S environment with helm for development
 - add needed helm repos
 
 # Start-Stop microk8s
-- 1.start_k8s at morning
+- 0.start_k8s at morning
+- 1.reinit if your local IP changed (because move from home to office)
 - 9.stop_k8s after worktime
 
 # Helms - install if needed
-- mongodb v5 with replicas: 4 replicas, 4GB storage, scripts (install, uninstall, remove PVCs)
-- kafka: 2 brokers, 1GB storagee, scripts (install, uninstall, remove PVCs)
+- mongodb v5 with replicas: 4 replicas, 4Gi storage, 2Gi memory, 50% cpu, scripts (install, uninstall, remove PVCs)
+- kafka: 2 brokers, 1Gi storagee, 512Mi memory, 20% cpu, scripts (install, uninstall, remove PVCs)
 - kafka-ui works with Kafka above
 - argocd: scripts (install, get password, uninstall)
 
