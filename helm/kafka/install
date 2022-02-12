@@ -1,1 +1,1 @@
-helm install --set deleteTopicEnable=true,replicaCount=2,persistence.size=1Gi,zookeeper.persistence.size=1Gi,resources.limits.memory=512Mi,resources.limits.cpu=200m kafka bitnami/kafka
+helm install --set deleteTopicEnable=true,replicaCount=2,persistence.size="1Gi",zookeeper.persistence.size="1Gi",resources.limits.memory="512Mi",resources.limits.cpu="200m" kafka bitnami/kafka
