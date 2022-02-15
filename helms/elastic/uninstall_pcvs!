@@ -1,0 +1,1 @@
+kubectl delete -n default persistentvolumeclaim -l app.kubernetes.io/instance=elastic

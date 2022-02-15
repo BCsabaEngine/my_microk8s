@@ -1,1 +1,1 @@
-kubefwd svc -n default -l "app.kubernetes.io/name in (mongodb, kafka, kafka-ui)"
+kubefwd svc -n default -l "app.kubernetes.io/name in (mongodb, kafka, kafka-ui, Xelasticsearch)"

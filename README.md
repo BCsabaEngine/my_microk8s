@@ -17,14 +17,17 @@ My MicroK8S environment with helm for development
 - mongodb v5 with replicas: 4 replicas, 4Gi storage, 2Gi memory, 50% cpu, scripts (install, uninstall, remove PVCs)
 - kafka: 2 brokers, 1Gi storagee, 512Mi memory, 20% cpu, scripts (install, uninstall, remove PVCs)
 - kafka-ui works with Kafka above
+- elastic: default settings [huge RAM needed] scripts (install, uninstall, remove PVCs)
 - argocd: scripts (install, get password, uninstall)
 
 # Fast exposes - run after start
 - argocd
 - k8s dashboard
-- all with kubefwd (https://github.com/txn2/kubefwd/releases)
+- all with kubefwd (https://github.com/txn2/kubefwd/releases) except elastic
+- elastic to localhost:9200 (to use with https://app.elasticvue.com/)
 
 # Optional exposes (use kubefwd instead)
 - mongo
 - kafka
 - kafka-ui
+- elastic
