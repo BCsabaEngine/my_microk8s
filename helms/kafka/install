@@ -1,1 +1,1 @@
-microk8s.helm3 install --set deleteTopicEnable=true,replicaCount=2,persistence.size="1Gi",zookeeper.persistence.size="1Gi",resources.limits.memory="512Mi" kafka bitnami/kafka
+microk8s.helm3 install --set deleteTopicEnable=true,replicaCount=2,persistence.size="1Gi",zookeeper.persistence.size="1Gi",resources.limits.memory="256Mi" kafka bitnami/kafka
