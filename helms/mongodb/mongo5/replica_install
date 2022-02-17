@@ -1,1 +1,1 @@
-microk8s.helm3 install --set architecture="replicaset",replicaCount=4,auth.rootPassword="password",persistence.size="4Gi",resources.requests.memory="1Gi",resources.limits.memory="2Gi",resources.limits.cpu="500m",image.tag=5.0 mongodb5-replica bitnami/mongodb
+microk8s.helm3 install --set architecture="replicaset",replicaCount=4,auth.rootPassword="password",persistence.size="4Gi",resources.requests.memory="1Gi",resources.limits.memory="2Gi",image.tag=5.0 mongodb5-replica bitnami/mongodb
