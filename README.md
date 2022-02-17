@@ -23,8 +23,8 @@ My MicroK8S environment with helm for development
 # Fast exposes - run after start
 - argocd
 - k8s dashboard
-- all with kubefwd (https://github.com/txn2/kubefwd/releases) except elastic
-- elastic to localhost:9200 (to use with https://app.elasticvue.com/)
+- all with kubefwd (https://github.com/txn2/kubefwd/releases)
+- use with https://app.elasticvue.com/ or same Chrome plugin
 
 # Optional exposes (use kubefwd instead)
 - mongo
