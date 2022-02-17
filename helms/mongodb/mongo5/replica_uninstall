@@ -1,1 +1,1 @@
-helm uninstall mongodb5-replica
+microk8s.helm3 uninstall mongodb5-replica

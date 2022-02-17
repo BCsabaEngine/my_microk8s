@@ -1,1 +1,1 @@
-helm install --set extraConfig.http.cors.allow-origin="*",extraConfig.http.cors.enabled=true elastic bitnami/elasticsearch
+microk8s.helm3 install --set extraConfig.http.cors.allow-origin="*",extraConfig.http.cors.enabled=true elastic bitnami/elasticsearch

@@ -1,1 +1,1 @@
-kubectl port-forward svc/elastic-elasticsearch-coordinating-only 9200:9200 --address='0.0.0.0'
+microk8s.kubectl port-forward svc/elastic-elasticsearch-coordinating-only 9200:9200 --address='0.0.0.0'

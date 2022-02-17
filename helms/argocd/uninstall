@@ -1,2 +1,2 @@
-kubectl delete -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
-kubectl delete namespace argocd
+microk8s.kubectl delete -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
+microk8s.kubectl delete namespace argocd

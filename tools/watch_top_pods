@@ -1,1 +1,1 @@
-watch -n1 "kubectl -n default -n default top pods && kubectl -n argocd top pods"
+watch -n1 "microk8s.kubectl -n default -n default top pods && microk8s.kubectl -n argocd top pods"
