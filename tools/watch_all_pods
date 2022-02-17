@@ -1,0 +1,1 @@
+watch -n1 "microk8s.kubectl get pods -o wide"
