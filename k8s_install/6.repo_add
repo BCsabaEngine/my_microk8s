@@ -1,3 +1,3 @@
-helm repo add bitnami https://charts.bitnami.com/bitnami
-helm repo add kafka-ui https://provectus.github.io/kafka-ui
-helm repo update
+microk8s.helm3 repo add bitnami https://charts.bitnami.com/bitnami
+microk8s.helm3 repo add kafka-ui https://provectus.github.io/kafka-ui
+microk8s.helm3 repo update
